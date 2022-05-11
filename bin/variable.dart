@@ -1,11 +1,15 @@
 void main(){
 
-  print("Muhammad Aditio Kamal Ibrahim");
+  String name;
 
-  print("Muhammad Aditio Kamal Ibrahim");
+  name='Muhammad Aditio Kamal Ibrahim';
 
-  print("Muhammad Aditio Kamal Ibrahim");
+  print(name);
 
-  print("Muhammad Aditio Kamal Ibrahim");
+  print(name);
 
+  print(name);
+
+  print(name);
 }
+
