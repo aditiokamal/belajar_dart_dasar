@@ -38,10 +38,43 @@
 }*/
 
 //menggunakan kata kunci var untuk membuat variable langsung dengan nilainya
+/*
 void main(){
   var name='4 Muhammad Aditio Kamal Ibrahim';
   print(name);
   print(name);
   print(name);
   print(name);
+}*/
+
+//menggunakan kata kunci final untuk mencegah deklarasi ulang pada suatu variable
+/*void main(){
+  var name='Muhammad Aditio Kamal Ibrahim';
+  print(name);
+  print(name);
+  name='Aditio Kamal';
+  print(name);
+  print(name);
+}*/
+
+//menggunakan kata kunci final untuk mencegah deklarasi ulang pada suatu variable
+void main(){
+  var name='Muhammad Aditio Kamal Ibrahim';
+  print(name);
+  print(name);
+  name='Aditio Kamal';
+  print(name);
+  print(name);
+
+  //
+
+  var firstName='Aditio K.';
+  final lastName='Ibrahim';
+  print(firstName);
+  print(lastName);
+
+  firstName='Adit';
+  // lastName='Tio';
+  print(firstName);
+  print(lastName);
 }
