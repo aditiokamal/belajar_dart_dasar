@@ -58,7 +58,7 @@ void main(){
 }*/
 
 //menggunakan kata kunci final untuk mencegah deklarasi ulang pada suatu variable
-void main(){
+/*void main(){
   var name='Muhammad Aditio Kamal Ibrahim';
   print(name);
   print(name);
@@ -77,4 +77,24 @@ void main(){
   // lastName='Tio';
   print(firstName);
   print(lastName);
+}*/
+
+//penggunaan kata kunci const
+void main(){
+  final array1=[1,2,3];
+  const array2=[1,2,3];
+
+  array1[0] = 5;
+  array2[0] = 5;
+
+  print(array1);
+  print(array2);
 }
+
+
+
+
+
+
+
+
