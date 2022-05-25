@@ -49,7 +49,7 @@ void main(){
 
 //menggunakan kata kunci final untuk mencegah deklarasi ulang pada suatu variable
 /*
-  void main(){
+void main(){
   final name='Muhammad Aditio Kamal Ibrahim';
   print(name);
   print(name);
@@ -81,7 +81,8 @@ void main(){
 }*/
 
 //penggunaan kata kunci const
-  void main(){
+/*
+void main(){
   final array1=[1,2,3];
   const array2=[1,2,3];
 
@@ -90,9 +91,19 @@ void main(){
 
   print(array1);
   print(array2);
+}*/
+
+//penggunaan kata kunci late
+void main(){
+  late var value = getValue();
+  print('Display Value');
+  print(value);
 }
 
-
+String getValue(){
+  print('getValue dipanggil');
+  return 'Muhammad Aditio Kamal Ibrahim';
+}
 
 
 
