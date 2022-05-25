@@ -4,7 +4,7 @@ void main(){
   bool finish = false;
   print(finish);
 
-  bool finish = true;
+  finish = true;
   print(finish);
 
 
