@@ -38,4 +38,7 @@ void main(){
   print(fullName);
   print('print tanda petik \'');
 
+  var text = 'this is \'dart\' \$cool';
+  print(text);
+
 }
