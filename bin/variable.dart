@@ -101,7 +101,7 @@ void main(){
 }
 
 String getValue(){
-  print('getValue dipanggil');
+  print('getValue() dipanggil');
   return 'Muhammad Aditio Kamal Ibrahim';
 }
 
