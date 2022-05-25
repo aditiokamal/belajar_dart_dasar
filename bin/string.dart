@@ -46,6 +46,7 @@ void main(){
 */
 
 //menggabungkaan string
+/*
 void main(){
 
   String firstName = 'Aditio';
@@ -59,5 +60,21 @@ void main(){
   print(name1);
   print(name2);
   print(name3);
+
+}
+*/
+
+
+//penggunaan multiiline string
+void main(){
+
+  var longString = '''
+  string ini sangat panjang
+  sehingga sulit untuk
+  dibuat dalam satu baris
+  kode program
+  ''';
+
+  print(longString);
 
 }
