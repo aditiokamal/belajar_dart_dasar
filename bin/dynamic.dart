@@ -1,5 +1,5 @@
 //penggunaan dynamic
-void main (){
+void main(){
 
   dynamic variable = 100;
   print(variable);
