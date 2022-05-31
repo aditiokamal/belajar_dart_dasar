@@ -1,3 +1,4 @@
+//praktek konversi TipeData Number dan String;
 void main(){
 
   var inputString = '1000';
@@ -7,5 +8,11 @@ void main(){
   print(inputString);
   print(inputInt);
   print(inputDouble);
+
+  var doubleFromInt = inputInt.toDouble();
+  var intFromDouble = inputDouble.toInt();
+
+  var stringFromInt = inputInt.toString();
+  var stringFromDouble = inputInt.toString();
 
 }
