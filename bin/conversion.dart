@@ -9,10 +9,10 @@ void main(){
   print(inputInt);
   print(inputDouble);
 
-  var doubleFromInt = inputInt.toDouble();
-  var intFromDouble = inputDouble.toInt();
+  var intToDoble = inputInt.toDouble();
+  var doubleToInt = inputDouble.toInt();
 
-  var stringFromInt = inputInt.toString();
-  var stringFromDouble = inputInt.toString();
+  var intToString = inputInt.toString();
+  var doubleToString = inputDouble.toString();
 
 }
