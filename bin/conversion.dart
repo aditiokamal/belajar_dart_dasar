@@ -26,25 +26,42 @@ void main(){
   var stringToBool = 'ga ada, pake operator perbandingan';
 
   //test
-  print('Input : $inputString');
+  print('> INPUT');
+  print('Input String : $inputString');
+  print('Input Boolean : $inputBool');
+
+  //String ke Number
+  print('> String ke Number');
   print('Konversi dari String ke Int : $stringToInt');
   print('Konversi dari String ke Double : $stringToDouble');
-  print('Konversi dari String ke Boolean : $stringToBool');
 
+  //Number ke String
+  print('> Number ke String');
   print('Konversi dari Int ke String  : $intToString');
   print('Konversi dari Double ke String : $doubleToString');
-  print('Konversi dari Boolean ke String : $boolToString');
 
+  //Number ke Number lain
+  print('> Number ke Number lain');
   print('Konversi dari Int ke Double : $intToDoble');
   print('Konversi dari Double ke Int : $doubleToInt');
 
+  //String ke Boolean
+  print('> String ke Boolean');
+  print('Konversi dari String ke Boolean : $stringToBool');
+
+  //Boolean ke String
+  print('> Boolean ke String');
+  print('Konversi dari Boolean ke String : $boolToString');
+
+  //Number ke Boolean
+  print('> Number ke Boolean');
   print('Konversi dari Int ke Boolean : \$intToBool');
   print('Konversi dari Double ke Boolean : \$doubleToBool');
 
+  //Boolean ke Number
+  print('> Boolean ke Number');
   print('Konversi dari Boolean ke Int : \$boolToInt');
   print('Konversi dari Boolean ke Double : \$boolToDouble');
-
-
 
 
 }
