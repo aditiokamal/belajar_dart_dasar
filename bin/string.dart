@@ -65,7 +65,7 @@ void main(){
 */
 
 
-//penggunaan multiiline string
+// praktek penggunaan multiline string
 void main(){
 
   var longString = '''
