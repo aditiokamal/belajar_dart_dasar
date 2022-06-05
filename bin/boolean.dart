@@ -1,5 +1,5 @@
 //penggunaan TipeData boolean
-void main() {
+void main(){
   bool finish = false;
   print(finish);
 

@@ -64,8 +64,10 @@ void main(){
 }
 */
 
+
 // praktek penggunaan multiline string
-void main() {
+void main(){
+
   var longString = '''
   string ini sangat panjang
   sehingga sulit untuk
@@ -74,4 +76,5 @@ void main() {
   ''';
 
   print(longString);
+
 }

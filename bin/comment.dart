@@ -1,6 +1,6 @@
 /// this is main function
 /// will executed by dart.exe
-void main() {
+void main(){
   // this is name variable
   var name = 'Muhammad Aditio Kamal Ibrahim';
   /**
