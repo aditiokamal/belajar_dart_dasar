@@ -1,6 +1,5 @@
 //praktek konversi TipeData Number dan String;
-void main(){
-
+void main() {
   var inputString = '1000';
   var stringToInt = int.parse(inputString);
   var stringToDouble = double.parse(inputString);
@@ -23,7 +22,11 @@ void main(){
 
   var inputBool = true;
   var boolToString = inputBool.toString();
-  var stringToBool = 'ga ada, pake operator perbandingan';
+
+  //var stringToBool = 'ga ada, pake operator perbandingan';
+  var stringForBool = 'false';
+  var convBool = stringForBool == 'true';
+  var stringToBool = convBool.toString();
 
   //test
   print('> INPUT');
@@ -62,6 +65,4 @@ void main(){
   print('> Boolean ke Number');
   print('Konversi dari Boolean ke Int : \$boolToInt');
   print('Konversi dari Boolean ke Double : \$boolToDouble');
-
-
 }

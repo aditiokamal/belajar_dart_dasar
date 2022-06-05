@@ -94,19 +94,13 @@ void main(){
 }*/
 
 //penggunaan kata kunci late
-void main(){
+void main() {
   late var value = getValue();
   print('Display Value');
   print(value);
 }
 
-String getValue(){
+String getValue() {
   print('getValue() dipanggil');
   return 'Muhammad Aditio Kamal Ibrahim';
 }
-
-
-
-
-
-

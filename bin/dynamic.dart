@@ -1,6 +1,5 @@
 //penggunaan dynamic
-void main(){
-
+void main() {
   dynamic variable = 100;
   print(variable);
 
@@ -9,5 +8,4 @@ void main(){
 
   variable = 'Muhammad Aditio Kamal Ibrahim';
   print(variable);
-
 }
