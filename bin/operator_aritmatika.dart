@@ -1,3 +1,4 @@
+//praktek penggunaan operator aritmatika
 void main() {
   var first = 10;
   var second = 3;
