@@ -26,7 +26,7 @@ void main() {
   name['last'] = 'Ibrahim';
 */
 
-  var name = <String,String>{
+  var name = <String, String>{
     'first': 'Aditio',
     'middle': 'Kamal',
     'last': 'Ibrahim',
