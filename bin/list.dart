@@ -42,6 +42,7 @@ void main() {
   names.removeAt(5); //hapus index ke-5
   print(names); //cetak List
 
+  //contoh lagi
   var names2 = [
     'index-0',
     'index-1',
@@ -50,6 +51,7 @@ void main() {
 
   print(names2);
 
+  //contoh lagi
   var names3 = <String>[
     'index-0',
     'index-1',
