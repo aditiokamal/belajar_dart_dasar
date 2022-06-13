@@ -8,8 +8,8 @@
 * */
 void main() {
   Set<int> numbers = {};
-  var strings = <String> {};
-  var doubles = <double> {};
+  var strings = <String>{};
+  var doubles = <double>{};
 
   print(numbers);
   print(strings);
@@ -29,6 +29,4 @@ void main() {
   print(names);
   names.remove('TEST');
   print(names);
-
-
 }
