@@ -1,8 +1,9 @@
 //praktek penggunaan switch case
-/* Switch Case
-*
-* jika tidak ada breakk maka proses akan berlanjut terus
-* */
+/*
+Switch Case
+
+jika tidak ada break maka proses akan berlanjut terus
+*/
 void main() {
   var nilai = 'C';
 

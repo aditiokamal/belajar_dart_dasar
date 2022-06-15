@@ -1,16 +1,18 @@
 //praktek penggunaan for
-/* For Loop
-* syntax
-  for(/*initial statement*/; /*kondisi*/; /*post statement*/){
-    /*blok perulangan*/
-  }
-* urutan proses:
-* run initial statement;
-* cek kondisi;
-* jika terpenuhi/kondisi bernilai TRUE, maka run blok perulangan;
-* setelah blok perulangan dijalankan, maka post statement dijalankan;
-* setelah post statement dijalankan, maka kembali cek kondisi;
-* jika tidak terpenuhi/kondisi bernilai FALSE, maka end for TANPA menjalankan post statement;
+/*
+For Loop
+
+syntax
+for(/*initial statement*/; /*kondisi*/; /*post statement*/){
+  /*blok perulangan*/
+}
+urutan proses:
+run initial statement;
+cek kondisi;
+jika terpenuhi/kondisi bernilai TRUE, maka run blok perulangan;
+setelah blok perulangan dijalankan, maka post statement dijalankan;
+setelah post statement dijalankan, maka kembali cek kondisi;
+jika tidak terpenuhi/kondisi bernilai FALSE, maka end for TANPA menjalankan post statement;
  */
 void main() {
   //perulangan tanpa henti
