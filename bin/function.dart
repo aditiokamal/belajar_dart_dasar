@@ -22,7 +22,7 @@ syntax
 - memanggil function
 
   void main()  {
-    namaFunction;
+    namaFunction();
   }
 
  */
