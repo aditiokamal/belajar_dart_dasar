@@ -1,11 +1,13 @@
 //praktek penggunaan set
-/* SET
-* set merupakan TipeData sama seperti List, namun:
-* tidak menerima duplikat data
-* jika kita memasukan data duplikat, maka hanya satu data yang diterima dan yang lainnya dihiraukan
-* tidak menjamin urutan data
-* didalam set tidak ada index seperti pada List
-* */
+/*
+SET
+
+set merupakan TipeData sama seperti List, namun:
+tidak menerima duplikat data
+jika kita memasukan data duplikat, maka hanya satu data yang diterima dan yang lainnya dihiraukan
+tidak menjamin urutan data
+didalam set tidak ada index seperti pada List
+*/
 void main() {
   Set<int> numbers = {};
   var strings = <String>{};
