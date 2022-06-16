@@ -1,5 +1,4 @@
 //praktek penggunaan function named parameter
-
 /*
 
 Function Named Parameter
@@ -16,11 +15,12 @@ yaitu dengan menggunakan kurung kurawal {}
 syntax
 - membuat function named parameter
 
-  void namaFunction({String? namedParameter2, String? namedParameter2, String? namedParameter2}) {
+  void namaFunction({String? namedParameter1, String? namedParameter2, String? namedParameter2}) {
     print('Hello $namedParameter1 $namedParameter2 $namedParameter3');
   }
 
 - memanggil function named parameter
+  //nama parameter wajib disebut namun tidak harus berurutan posisinya
 
   void main()  {
     namaFunction(); //karena named parameter adalah nullable secara default, sehingga dapat langsung dipanggil tanpa parameter
